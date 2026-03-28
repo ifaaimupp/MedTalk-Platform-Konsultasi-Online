@@ -14,8 +14,8 @@ menu = st.sidebar.selectbox("Pilih Layanan:", ["Data Pasien", "Data Dokter", "Di
 # Identitas Mahasiswa di Sidebar
 st.sidebar.markdown("---")
 st.sidebar.write("**Disusun Oleh:**")
-st.sidebar.text("Nama: [ISI NAMA KAMU]")
-st.sidebar.text("NIM: [ISI NIM KAMU]")
+st.sidebar.text("Nama: Ifa Uswatul Ummah")
+st.sidebar.text("NIM: 2417052801004")
 
 if menu == "Data Pasien":
     st.header("📋 Manajemen Pasien")
